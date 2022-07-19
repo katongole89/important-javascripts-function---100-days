@@ -60,7 +60,7 @@ const everyFunc = (arr) =>{
 //   // fromIndex is the index the search should start at
 // });
 const includesFunc = (arr) =>{
-	const namedCow = numbers.includes('cow');
+	const namedCow = arr.includes('cow');
 }
 //call function to see result
 includesFunc(nameArr)
@@ -76,4 +76,28 @@ const mapFunc = (arr) =>{
 }
 //call function to see result
 // mapFunc(nameArr)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+//REDUCE
+//reduce is the most powerful array method existing. It can be used to reimplement all existing array methods, and it's the most flexible one.
+// TEMPLATE
+// reduce(function (accumulator, currentValue, currentIndex, array) {
+//   // accumulator is the result of the last call, or the initialValue in the beginning
+//   // currentValue is the value currently processed
+//   // currentIndex is the index of the current value within the array
+//   // array is a reference to the array reduce works on
+// }, initialValue);
+const numbers = [15.5, 2.3, 1.1, 4.7];
+const reduceFunc = (arr) =>{
+	
+	// Round all the numbers and display the sum:
+	const theTotal = numbers.reduce((total, number, currentIndex, arr)=>{
+		return total + Math.round(number)
+	})
+	console.log(theTotal)
+}
+//call function to see result
+reduceFunc(numbers)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
