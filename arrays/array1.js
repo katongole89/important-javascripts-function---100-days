@@ -39,7 +39,16 @@ const someFunc = (arr) =>{
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
 
 
-
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+//EVERY
+//It tests whether all elements satisfy a condition. Only then, the method returns true
+const everyFunc = (arr) =>{
+	const namedCow = arr.every((name)=> name === 'cow')
+	console.log(namedCow)
+}
+//call function to see result
+// everyFunc(nameArr)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
 
 
 
