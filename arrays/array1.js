@@ -51,4 +51,29 @@ const everyFunc = (arr) =>{
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
 
 
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+//INCLUDES
+//checks whether an array contains a specific element
+// structure
+// includes(function (searchElement, fromIndex) {
+//   // searchElement is the element you look for
+//   // fromIndex is the index the search should start at
+// });
+const includesFunc = (arr) =>{
+	const namedCow = numbers.includes('cow');
+}
+//call function to see result
+includesFunc(nameArr)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
 
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+//MAP
+//Whenever you want to transform all values within an array, map is the way to go.
+const mapFunc = (arr) =>{
+	const newArray = arr.map((name)=> name+'2')
+	console.log(newArray)
+}
+//call function to see result
+// mapFunc(nameArr)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
