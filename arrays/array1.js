@@ -1,4 +1,5 @@
 let nameArr = ['cat', 'dog', 'cow']
+// function (element, index, array)
 // +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
 // FOREACH
 // helps you loop through every thing without returning anything
@@ -24,4 +25,21 @@ const filterFunc = (arr) =>{
 //call function to see result
 // filterFunc(nameArr)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+//SOME
+//It tests whether at least one element within the array tests positive for a specific condition
+const someFunc = (arr) =>{
+	const namedCow = arr.some((name)=> name === 'cow')
+	console.log(namedCow)
+}
+//call function to see result
+// someFunc(nameArr)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+
+
+
+
 
