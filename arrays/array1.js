@@ -99,5 +99,29 @@ const reduceFunc = (arr) =>{
 	console.log(theTotal)
 }
 //call function to see result
-reduceFunc(numbers)
+// reduceFunc(numbers)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+//SORT AND REVERSE
+//returns an array of elements that meet a certain
+// TEST SORT ON STRINGS
+const sortStrings = (arr) =>{
+	console.log(arr)
+	const newArr = arr.sort()
+	console.log(newArr)
+}
+//call function to see result
+sortStrings(nameArr)
+
+
+// const sortFunc = (arr) =>{
+// 	const newArray = arr.filter((name)=>{
+// 		return name != 'cow'
+// 	})
+// 	console.log(newArray)
+// }
+//call function to see result
+// filterFunc(nameArr)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
