@@ -142,3 +142,15 @@ const customReturnSort = () =>{
 //call function to see result
 // testCompareFunc(numbers22)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+//FIND
+//is your search function
+// Whenever you look for something within an array, you can use find to retrieve the first element from the array that satisfies your conditions.
+const findFunc = (arr) =>{
+	const searchedElement = arr.find((name)=> name ==='cow')
+	console.log('search', searchedElement)
+}
+//call function to see result
+findFunc(nameArr)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
