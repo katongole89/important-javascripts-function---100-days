@@ -113,15 +113,32 @@ const sortStrings = (arr) =>{
 	console.log(newArr)
 }
 //call function to see result
-sortStrings(nameArr)
+// sortStrings(nameArr)
+
+// PASSING A COMPARE FUNCTION
+
+// If compare(a,b) is less than zero, the sort() method sorts a to a lower index than b. In other words, a will come first.
+// If compare(a,b) is greater than zero, the sort() method sort b to a lower index than a, i.e., b will come first.
+// If compare(a,b) returns zero, the sort() method considers a equals b and leaves their positions unchanged.
+let numbers22 = [0, 1 , 2, 3, 10, 20, 30 ];
+const testCompareFunc = (arr) =>{
+	const newArr = arr.sort((a,b)=> a-b)
+	console.log(newArr)
+}
+
+const customReturnSort = () =>{
+	let numbers = [0, 1 , 2, 3, 10, 20, 30 ];
+	numbers.sort( function( a , b){
+		if(a > b) return 1;
+		if(a < b) return -1;
+		return 0;
+	});
+
+	console.log(numbers);
+}
 
 
-// const sortFunc = (arr) =>{
-// 	const newArray = arr.filter((name)=>{
-// 		return name != 'cow'
-// 	})
-// 	console.log(newArray)
-// }
+
 //call function to see result
-// filterFunc(nameArr)
+// testCompareFunc(numbers22)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
