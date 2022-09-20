@@ -176,6 +176,29 @@ const popFunc = (arr) =>{
 	console.log('new array', arr)
 }
 //call function to see result
-popFunc(nameArr)
+// popFunc(nameArr)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+//UNSHIFT
+//Adds a value at the beginning of the array
+const unshiftFunc = (arr) =>{
+	let newValue = 'the new value'
+	arr.unshift(newValue)
+	console.log('new array', arr)
+}
+//call function to see result
+// unshiftFunc(nameArr)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+//SHIFT
+//removes a value at the beginning of the array
+const shiftFunc = (arr) =>{
+	arr.shift()
+	console.log('new array', arr)
+}
+//call function to see result
+shiftFunc(nameArr)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
 
