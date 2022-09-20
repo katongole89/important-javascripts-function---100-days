@@ -208,6 +208,25 @@ const shiftFunc = (arr) =>{
 //creates a string from the elements of an array
 const joinFunc = (arr) =>{
 	let newArray = arr.join('')
+	// =======
+	// brings a string with commas
+	// let newArray = arr.join()
+	// ++++++++++++++
+	console.log('new array', newArray)
+}
+//call function to see result
+joinFunc(nameArr)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+//JOIN
+//The slice() method returns selected elements in an array, as a new array. -- returns a portion of the array depending on wat u have passed
+const sliceFunc = (arr) => {
+	let newArray = arr.join('')
+	// =======
+	// brings a string with commas
+	// let newArray = arr.join()
+	// ++++++++++++++
 	console.log('new array', newArray)
 }
 //call function to see result
