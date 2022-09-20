@@ -152,5 +152,20 @@ const findFunc = (arr) =>{
 	console.log('search', searchedElement)
 }
 //call function to see result
-findFunc(nameArr)
+// findFunc(nameArr)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+//PUSH
+//
+// 
+const pushFunc = (arr) =>{
+	let pushValue = '4'
+	arr.push(pushValue)
+	console.log('new array', arr)
+}
+//call function to see result
+pushFunc(nameArr)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
