@@ -215,21 +215,24 @@ const joinFunc = (arr) =>{
 	console.log('new array', newArray)
 }
 //call function to see result
-joinFunc(nameArr)
+// joinFunc(nameArr)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
 
 // +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
-//JOIN
+//SLICE
 //The slice() method returns selected elements in an array, as a new array. -- returns a portion of the array depending on wat u have passed
+//brings back the elements that are inbtn elements of the given indices
+//end not included
+// positive means starting from the front and negative means starting from the back
+let theTestArr = ['1', '2', '3', '4', '5', '6', '7']
 const sliceFunc = (arr) => {
-	let newArray = arr.join('')
-	// =======
-	// brings a string with commas
-	// let newArray = arr.join()
-	// ++++++++++++++
-	console.log('new array', newArray)
+	// let newArray = arr.slice(1, 6)
+	// console.log('new array', newArray)
+
+	let newArrayNegative = arr.slice(-3,-1)
+	console.log('new array', newArrayNegative)
 }
 //call function to see result
-joinFunc(nameArr)
+sliceFunc(theTestArr)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
 
