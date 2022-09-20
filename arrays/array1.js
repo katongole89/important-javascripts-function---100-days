@@ -158,14 +158,24 @@ const findFunc = (arr) =>{
 
 // +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
 //PUSH
-//
-// 
+//adds a value at the end of the array
 const pushFunc = (arr) =>{
 	let pushValue = '4'
 	arr.push(pushValue)
 	console.log('new array', arr)
 }
 //call function to see result
-pushFunc(nameArr)
+// pushFunc(nameArr)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+//POP
+//removes a value at the end of the array
+const popFunc = (arr) =>{
+	arr.pop()
+	console.log('new array', arr)
+}
+//call function to see result
+popFunc(nameArr)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
 
