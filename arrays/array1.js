@@ -199,6 +199,18 @@ const shiftFunc = (arr) =>{
 	console.log('new array', arr)
 }
 //call function to see result
-shiftFunc(nameArr)
+// shiftFunc(nameArr)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+//JOIN
+//creates a string from the elements of an array
+const joinFunc = (arr) =>{
+	let newArray = arr.join('')
+	console.log('new array', newArray)
+}
+//call function to see result
+joinFunc(nameArr)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
 
