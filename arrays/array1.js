@@ -239,11 +239,26 @@ const sliceFunc = (arr) => {
 // +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
 //SPLICE
 //The splice() method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place
+//structure
+//###(index, deleteCount, wat-to-add)
 const spliceFunc = (arr) => {
 	arr.splice(1, 0, 'Feb');
 	console.log('new array', arr)
 }
 //call function to see result
-spliceFunc(theTestArr)
+// spliceFunc(theTestArr)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+//INDEXOF
+//Find the first index of "Apple":
+let checkIndexArr = ['1', '2', '3', '4', '5', '6', '7']
+const indexOfFunc = (arr) => {
+	let theIndex = arr.indexOf('2');
+	console.log('index', theIndex)
+}
+//call function to see result
+indexOfFunc(checkIndexArr)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
 
