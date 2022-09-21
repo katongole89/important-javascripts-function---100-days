@@ -233,6 +233,17 @@ const sliceFunc = (arr) => {
 	console.log('new array', newArrayNegative)
 }
 //call function to see result
-sliceFunc(theTestArr)
+// sliceFunc(theTestArr)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+//SPLICE
+//The splice() method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place
+const spliceFunc = (arr) => {
+	arr.splice(1, 0, 'Feb');
+	console.log('new array', arr)
+}
+//call function to see result
+spliceFunc(theTestArr)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
 
