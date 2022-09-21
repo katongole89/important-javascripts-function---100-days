@@ -271,5 +271,3 @@ const lengthFunc = (arr) => {
 //call function to see result
 lengthFunc(checkIndexArr)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
-
-
