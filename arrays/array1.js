@@ -258,7 +258,18 @@ const indexOfFunc = (arr) => {
 	console.log('index', theIndex)
 }
 //call function to see result
-indexOfFunc(checkIndexArr)
+// indexOfFunc(checkIndexArr)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+//LENGTH
+//get length of the array
+const lengthFunc = (arr) => {
+	let theLength = arr.length;
+	console.log('length', theLength)
+}
+//call function to see result
+lengthFunc(checkIndexArr)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
 
 
