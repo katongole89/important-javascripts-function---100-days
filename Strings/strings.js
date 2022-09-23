@@ -36,3 +36,20 @@ const indexOfFunc = (str) =>{
 //call function to see result
 // indexOfFunc(testString)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+// lastIndexOf(substr, [start])
+// Searches and (if found) returns the index number of the searched character or substring within the string. Searches the string from end to the beginning. If not found, -1 is returned. “Start” is an optional argument specifying the position within string to begin the search. Default is string.length-1.
+let lastIndexTestStr = 'gigi hadid'
+const lastIndexOfFunc = (str) => {
+	let theIndex = str.lastIndexOf('g')
+    console.log('the last index', theIndex)
+}
+//call function to see result
+// lastIndexOfFunc(lastIndexTestStr)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+
+
+
