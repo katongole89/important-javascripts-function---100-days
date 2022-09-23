@@ -20,8 +20,19 @@ const makeStringArrayFunc = (str) =>{
     // console.log(newArray.join(''))
 }
 //call function to see result
-makeStringArrayFunc(testString)
+// makeStringArrayFunc(testString)
 
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
 
-//convert string into an array
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+// indexOf(substr, [start])
+//Searches and (if found) returns the index number of the searched character or substring within the string. If not found, -1 is returned. “Start” is an optional argument specifying the position within string to begin the search. Default is 0.
+const indexOfFunc = (str) =>{
+	let theIndex = str.indexOf('koung')
+    console.log(str.charAt(8))
+    console.log('the index', theIndex)
+}
+//call function to see result
+// indexOfFunc(testString)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
