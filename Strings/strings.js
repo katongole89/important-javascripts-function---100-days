@@ -49,7 +49,3 @@ const lastIndexOfFunc = (str) => {
 //call function to see result
 // lastIndexOfFunc(lastIndexTestStr)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
-
-
-
-
