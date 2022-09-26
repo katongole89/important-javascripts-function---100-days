@@ -62,6 +62,10 @@ const replaceFunc = (str) => {
     //global replace
     let globalReplaceStr = str.replace(/gigi/g, 'sheila')
     console.log('the global replace', globalReplaceStr)
+
+    // A global, case-insensitive replacement:
+    let globalReplaceCaseInsensitiveStr = str.replace(/gigi/g, 'sheila')
+    console.log('the global replace case insenstive', globalReplaceCaseInsensitiveStr)
 }
 //call function to see result
 // replaceFunc(replaceStr)
