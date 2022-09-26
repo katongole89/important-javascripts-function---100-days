@@ -64,5 +64,17 @@ const replaceFunc = (str) => {
     console.log('the global replace', globalReplaceStr)
 }
 //call function to see result
-replaceFunc(replaceStr)
+// replaceFunc(replaceStr)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+// slice(start, [end])
+// This function returns a substring of the string based on the “start” and “end” index arguments, NOT including the “end” index itself. “End” is optional, and if none is specified, the slice includes all characters from “start” to end of the string.
+const sliceFunc = (str) => {
+	let slicedStr = str.slice(0, 7)
+    console.log('sliced str', slicedStr)
+}
+//call function to see result
+// sliceFunc(lastIndexTestStr)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
