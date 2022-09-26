@@ -115,5 +115,16 @@ const toUpperCaseFunc = (str) => {
     console.log('the upper cased word', newWordUpperCase)
 }
 //call function to see result
-toLowerCaseFunc(lowerLetteredWord)
+// toLowerCaseFunc(lowerLetteredWord)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+// includes()
+// It is used to check whether a string contains the specified string or characters.
+const includesFunc = (str) => {
+	let isStrThea = str.includes('gigi')
+    console.log('The str is there --', isStrThea)
+}
+//call function to see result
+includesFunc(lowerLetteredWord)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
