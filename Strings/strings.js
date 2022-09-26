@@ -59,6 +59,9 @@ const replaceFunc = (str) => {
     //removes the first one
 	let newStr = str.replace('gigi', 'sheila')
     console.log('the new replace sentence', newStr)
+    //global replace
+    let globalReplaceStr = str.replace(/gigi/g, 'sheila')
+    console.log('the global replace', globalReplaceStr)
 }
 //call function to see result
 replaceFunc(replaceStr)
