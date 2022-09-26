@@ -151,5 +151,5 @@ const trimFunc = (str) => {
     console.log('new str --', strRemovedSpace)
 }
 //call function to see result
-trimFunc(strWithSpace)
+// trimFunc(strWithSpace)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
