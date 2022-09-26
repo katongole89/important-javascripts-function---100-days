@@ -49,3 +49,17 @@ const lastIndexOfFunc = (str) => {
 //call function to see result
 // lastIndexOfFunc(lastIndexTestStr)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+//replace(regexp/substr, replacetext)
+// Searches and replaces the regular expression (or sub string) portion (match) with the replaced text instead.
+let replaceStr = 'gigi hadid gigi katongole gigi'
+const replaceFunc = (str) => {
+    //removes the first one
+	let newStr = str.replace('gigi', 'sheila')
+    console.log('the new replace sentence', newStr)
+}
+//call function to see result
+replaceFunc(replaceStr)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
