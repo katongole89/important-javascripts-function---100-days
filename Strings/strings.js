@@ -103,5 +103,17 @@ const toLowerCaseFunc = (str) => {
     console.log('the lower cased word', newWordLowerCase)
 }
 //call function to see result
-toLowerCaseFunc(capitalLetteredWord)
+// toLowerCaseFunc(capitalLetteredWord)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+// toUpperCase()
+// This will return the string with all of its characters converted to uppercase.
+let lowerLetteredWord = 'katongole richard'
+const toUpperCaseFunc = (str) => {
+	let newWordUpperCase = str.toLowerCase()
+    console.log('the upper cased word', newWordUpperCase)
+}
+//call function to see result
+toLowerCaseFunc(lowerLetteredWord)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
