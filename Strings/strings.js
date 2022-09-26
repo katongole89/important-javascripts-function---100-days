@@ -93,3 +93,15 @@ const splitFunc = (str) => {
 //call function to see result
 // splitFunc(lastIndexTestStr)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+// toLowerCase()
+// This will return the string with all of its characters converted to lowercase.
+let capitalLetteredWord = 'KATONGOLE RICHARD'
+const toLowerCaseFunc = (str) => {
+	let newWordLowerCase = str.toLowerCase()
+    console.log('the lower cased word', newWordLowerCase)
+}
+//call function to see result
+toLowerCaseFunc(capitalLetteredWord)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
