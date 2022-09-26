@@ -78,3 +78,14 @@ const sliceFunc = (str) => {
 //call function to see result
 // sliceFunc(lastIndexTestStr)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+// split(delimiter, [limit])
+// This function returns a substring of the string based on the “start” and “end” index arguments, NOT including the “end” index itself. “End” is optional, and if none is specified, the slice includes all characters from “start” to end of the string.
+const splitFunc = (str) => {
+	let splitStr = str.split(' ')
+    console.log('split str', splitStr)
+}
+//call function to see result
+// splitFunc(lastIndexTestStr)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
