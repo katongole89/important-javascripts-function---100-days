@@ -126,5 +126,17 @@ const includesFunc = (str) => {
     console.log('The str is there --', isStrThea)
 }
 //call function to see result
+// includesFunc(lowerLetteredWord)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+// endsWith()
+// This function checks whether a string ends with specified string or characters.
+const endsWithFunc = (str) => {
+	let isStrEndsWth = str.endsWith('gigi')
+    console.log('The str is there --', isStrEndsWth)
+}
+//call function to see result
 includesFunc(lowerLetteredWord)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
