@@ -138,5 +138,5 @@ const endsWithFunc = (str) => {
     console.log('The str is there --', isStrEndsWth)
 }
 //call function to see result
-includesFunc(lowerLetteredWord)
+endsWithFunc(lowerLetteredWord)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
