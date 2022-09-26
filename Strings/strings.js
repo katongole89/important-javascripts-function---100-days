@@ -138,5 +138,18 @@ const endsWithFunc = (str) => {
     console.log('The str is there --', isStrEndsWth)
 }
 //call function to see result
-endsWithFunc(lowerLetteredWord)
+// endsWithFunc(lowerLetteredWord)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+// trim()
+// This function removes whitespace from both ends of a string.
+let strWithSpace = '  testRemove space  '
+const trimFunc = (str) => {
+	let strRemovedSpace = str.trim()
+    console.log('new str --', strRemovedSpace)
+}
+//call function to see result
+trimFunc(strWithSpace)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
