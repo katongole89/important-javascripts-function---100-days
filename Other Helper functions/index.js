@@ -17,5 +17,17 @@ const setTimeoutFunc = () => {
 	setTimeout(()=>console.log('check timeout'), 2000)
 }
 //call function to see result
-setTimeoutFunc()
+// setTimeoutFunc()
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+// Object.entries(obj)
+// convert object into array
+const objectEntriesFunc = (obj) => {
+	let newArray = Object.entries(obj)
+    console.log(newArray)
+}
+//call function to see result
+// objectEntriesFunc({name:'katongole', year:'1994'})
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
