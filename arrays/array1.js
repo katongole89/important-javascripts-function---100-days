@@ -269,5 +269,17 @@ const lengthFunc = (arr) => {
 	console.log('length', theLength)
 }
 //call function to see result
-lengthFunc(checkIndexArr)
+// lengthFunc(checkIndexArr)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+//Array.isArray
+//checking if variable
+const arrayIsArrayFunc = (arr) => {
+	let isArray = Array.isArray(arr);
+	console.log('is an array', isArray)
+}
+//call function to see result
+// arrayIsArrayFunc(checkIndexArr)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
