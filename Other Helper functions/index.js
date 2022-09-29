@@ -31,3 +31,14 @@ const objectEntriesFunc = (obj) => {
 //call function to see result
 // objectEntriesFunc({name:'katongole', year:'1994'})
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+// typeof
+// identify the type of a vriable
+const typeOfFunc = (obj) => {
+	let theTypeOf = typeof obj
+    console.log(theTypeOf)
+}
+//call function to see result
+typeOfFunc('katongole')
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
