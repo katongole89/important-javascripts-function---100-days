@@ -53,5 +53,33 @@ const objectKeysFunc = (arr) => {
 	console.log('the keys', theKeysArr)
 }
 //call function to see result
-objectKeysFunc(TestArr)
+// objectKeysFunc(TestArr)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+// Math.random() used with Math.floor()
+// Math.random() always returns a number lower than 1.
+// Math.random() used with Math.floor() can be used to return random integers.
+
+const MathRandomFunc = () => {
+	//testing Math.random()
+	console.log(Math.random())
+
+	//using Math.random() with Math.floor
+	console.log(Math.floor(Math.random()))
+
+	//Testing different ranges
+	// Returns a random integer from 0 to 9:
+	console.log(Math.floor(Math.random()*10))
+
+	// Returns a random integer from 0 to 10:
+	console.log(Math.floor(Math.random()*11))
+
+	// Returns a random integer from 1 to 10:
+	console.log(Math.floor(Math.random()*10))+1
+	
+}
+//call function to see result
+MathRandomFunc()
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
