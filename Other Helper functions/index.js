@@ -40,5 +40,18 @@ const typeOfFunc = (obj) => {
     console.log(theTypeOf)
 }
 //call function to see result
-typeOfFunc('katongole')
+// typeOfFunc('katongole')
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+// Object.keys
+// Returns an array of keys for a given array
+let TestArr = ['man city', 'arsenal', 'liverpool', 'man united']
+const objectKeysFunc = (arr) => {
+	let theKeysArr = Object.keys(arr)
+	console.log('the keys', theKeysArr)
+}
+//call function to see result
+objectKeysFunc(TestArr)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
