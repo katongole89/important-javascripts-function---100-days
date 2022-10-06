@@ -81,5 +81,30 @@ const MathRandomFunc = () => {
 	
 }
 //call function to see result
-MathRandomFunc()
+// MathRandomFunc()
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+// Math.ceil
+// Returns the next number of there are decimal point
+let testNo = 9.12
+const mathCeilFunc = (number) => {
+	let newNo = Math.ceil(number)
+	console.log('the number', newNo)
+}
+//call function to see result
+// mathCeilFunc(testNo)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+// Array()
+// creates an array
+const arrayFunc = () => {
+	let newArr = Array(10)
+	console.log('the newArr', Array.from(Array(10).keys()))
+}
+//call function to see result
+arrayFunc()
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
