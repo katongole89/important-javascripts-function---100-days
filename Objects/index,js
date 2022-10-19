@@ -1,0 +1,15 @@
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+// spread while picking some values and removing them the remaining ones
+let testObj ={
+    'name':'richard',
+    'year': 2000,
+    'school': 'Namilyango college'
+}
+const otherSpreadFunc = (obj) => {
+    const {name, ...others} = obj
+	console.log('the name', name)
+    console.log('the others', others)
+}
+//call function to see result
+otherSpreadFunc(testObj)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
