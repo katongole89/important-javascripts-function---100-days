@@ -11,5 +11,16 @@ const otherSpreadFunc = (obj) => {
     console.log('the others', others)
 }
 //call function to see result
-otherSpreadFunc(testObj)
+// otherSpreadFunc(testObj)
+// +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
+
+
+// +++++++++++++++++++++++++++++++++ start +++++++++++++++++++++++++++++++++++++
+// delete a key from object
+const deleteKeyFunc = (obj) => {
+    delete obj.name
+    console.log('the others', obj)
+}
+//call function to see result
+deleteKeyFunc(testObj)
 // +++++++++++++++++++++++++++++++++ end +++++++++++++++++++++++++++++++++++++
